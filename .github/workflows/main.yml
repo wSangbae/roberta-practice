@@ -31,9 +31,9 @@ jobs:
       - name: 모델 복원
         run: |
           az ml model download \
-            --resource-group Practical-MLOps-Chapter4 \
-            --workspace-name Practical-MLOps-Chapter4 \
-            --name MLP-MPGRegression \
+            --resource-group bsw0111_rg_7154 \
+            --workspace-name roberta \
+            --name roberta-sequenceClassification \
             --version 1 \
             --download-path ./webapp
 
