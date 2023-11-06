@@ -33,7 +33,7 @@ jobs:
           az ml model download \
             --resource-group bsw0111_rg_7154 \
             --workspace-name roberta \
-            --name roberta-sequenceClassification \
+            --name Roberta \
             --version 1 \
             --download-path ./webapp
 
