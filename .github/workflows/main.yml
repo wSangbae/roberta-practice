@@ -59,3 +59,4 @@ jobs:
           tags: |
             protossdragoon/flask-docker-tf-azure_x86:v1
             ghcr.io/protossdragoon/flask-docker-tf-azure_x86:v1
+          #
